@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    width: 1440px;
+    border: 2px solid red;
+}
+
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+}
+
+nav ul li{
+    /*list-style: none;*/
+    display: inline-block;
+    margin: 10px;
+}
+nav{
+    margin-left: -20px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Cardo', serif;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+
+
+}
+.wooden img{
+    width: 190px;
+    height: 36px;
+    position: relative;
+    right: 320%;
+}
+.furniture{
+    position: relative;
+    height: 698px;
+    margin-top: 36px;
+}
+
+.p1, .p2{
+    position: absolute;
+    color: red;
+    top: 38%;
+    left: 42%;
+    transform: translate(-35%, -40%);
+}
+.p1{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    width: 807px;
+    height: 77px;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p2{
+    position: absolute;
+    width: 125px;
+    height: 20px;
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 6px 38px 7px 41px;
+    top: 50%;
+    left: 48%;
+}
+.icons{
+    position: relative;
+    width: 1440px;
+    height: 155px;
+    border: 1px solid green;
+}
+.first{
+    position: absolute;
+    display: flex;
+    top: 40px;
+    left: 70px;
+}
+
+.first p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 15px;
+    margin-right: 95px;
+}
+
+.pictures{
+    display: flex;
+}
+
+.pictures img{
+    width: 360px;
+    height: 320px;
+    margin-bottom: 115px;
+}
+.cloe{
+    display: flex;
+    margin-bottom: 29px;
+    justify-content: right;
+}
+
+.cloetext{
+    margin-right: 22px;
+    text-align: right;
+}
+
+.cloepicture img{
+    width: 960px;
+    height: 542px;
+}
+
+.cloetext{
+    position: relative;
+}
+
+ .cloe h1, .cloe a{
+     font-family: 'Roboto', sans-serif;
+     color: #000000;
+     font-weight: bold;
+ }
+
+
+ .cloetext h1{
+     font-weight: bold;
+     font-size: 50px;
+     line-height: 56px;
+     text-align: right;
+     margin-top: 48px;
+     margin-bottom: 30px;
+ }
+
+ .modular{
+     font-style: italic;
+     font-size: 18px;
+     line-height: 37px;
+     color: #000000;
+ }
+
+.from{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cloe h1, .modular, .from, .cloe a{
+    margin-right: 5%;
+}
+
+.an{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #525252;
+    font-family: 'Cardo', serif;
+    margin-bottom: 60px;
+}
+
+.cloe a{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
