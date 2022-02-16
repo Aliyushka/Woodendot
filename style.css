@@ -240,12 +240,80 @@ nav a{
     line-height: 22px;
 }
 
+.alada{
+    position: relative;
+    display: flex;
+    margin-bottom: 29px;
+    justify-content: right;
+}
 
+.aladapicture img{
+    width: 960px;
+    height: 542px;
+}
 
+.aladatext{
+    margin-right: 48px;
+    text-align: right;
+}
 
+.aladatext h1{
+    margin-top: 85px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+}
 
+.aladatext h1, .aladatext a{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
 
+.floating{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: -20px;
+}
 
+.from2{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.timeless, .color{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #525252;
+    font-family: 'Cardo', serif;
+}
+.timeless{
+    margin-top: 40px;
+}
+
+.color{
+    margin-bottom: 45px;
+}
+.alada a{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.new{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #BC1414;
+    margin-top: 43px;
+    margin-bottom: -60px;
+}
 
 
 
