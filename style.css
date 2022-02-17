@@ -6,9 +6,8 @@ body{
     margin: 0;
     background-color: #FFFFFF;
     width: 1440px;
-    border: 2px solid red;
 }
-
+/******************header*****************************************/
 header{
     background-color: #FFFFFF;
     display: flex;
@@ -18,7 +17,6 @@ header{
 }
 
 nav ul li{
-    /*list-style: none;*/
     display: inline-block;
     margin: 10px;
 }
@@ -33,8 +31,6 @@ nav a{
     line-height: 23px;
     text-align: center;
     color: #000000;
-
-
 }
 .wooden img{
     width: 190px;
@@ -42,10 +38,14 @@ nav a{
     position: relative;
     right: 320%;
 }
+
+
+/**************furniture***************************************/
 .furniture{
     position: relative;
     height: 698px;
     margin-top: 36px;
+    margin-left: -15px;
 }
 
 .p1, .p2{
@@ -82,17 +82,19 @@ nav a{
     top: 50%;
     left: 48%;
 }
+
+
+/************************icons******************************/
 .icons{
     position: relative;
     width: 1440px;
     height: 155px;
-    border: 1px solid green;
 }
 .first{
     position: absolute;
     display: flex;
-    top: 40px;
-    left: 70px;
+    top: 50px;
+    left: 60px;
 }
 
 .first p{
@@ -101,9 +103,12 @@ nav a{
     font-size: 13px;
     line-height: 24px;
     padding: 15px;
-    margin-right: 95px;
+    margin-right: 50px;
 }
 
+
+
+/***********************pictures********************************/
 .pictures{
     display: flex;
 }
@@ -112,7 +117,11 @@ nav a{
     width: 360px;
     height: 320px;
     margin-bottom: 115px;
+    margin-right: -20px;
 }
+
+
+/**********************cloe**************************/
 .cloe{
     display: flex;
     margin-bottom: 29px;
@@ -180,10 +189,10 @@ nav a{
     line-height: 22px;
 }
 
+
+/*********************pelican****************************/
 .pelican{
-    position: relative;
     display: flex;
-    margin-bottom: 29px;
 }
 
 .pelicanpicture img{
@@ -240,16 +249,17 @@ nav a{
     line-height: 22px;
 }
 
+
+/************************alada***********************/
 .alada{
-    position: relative;
     display: flex;
-    margin-bottom: 29px;
     justify-content: right;
 }
 
 .aladapicture img{
     width: 960px;
     height: 542px;
+    margin-top: 29px;
 }
 
 .aladatext{
@@ -314,6 +324,372 @@ nav a{
     margin-top: 43px;
     margin-bottom: -60px;
 }
+
+
+/*******************alba************************************/
+
+
+.alba{
+    display: flex;
+    position: relative;
+}
+
+.alba img{
+    width: 960px;
+    height: 572px;
+    margin-top: 29px;
+    margin-bottom: 25px;
+}
+
+.albatext{
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.albatext img{
+    position: absolute;
+    width: 230px;
+    height: 70px;
+    bottom: -15px;
+    margin-left: -70px;
+}
+
+.albatext h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: -10px;
+}
+
+.albatext h1, .albatext a{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+.albamodular{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.from3{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.versatile, .color6{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #525252;
+    font-family: 'Cardo', serif;
+}
+
+.albatext a{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.color6{
+    margin:  40px 0 40px 0;
+}
+
+
+/*********************Batea**************************************/
+
+
+
+.batea{
+    display: flex;
+}
+
+.batea img{
+    width: 960px;
+    height: 572px;
+    margin-top: 29px;
+    margin-bottom: 25px;
+}
+
+.bateatext{
+    text-align: right;
+    margin-right: 48px;
+    margin-left: 62px;
+}
+
+.batea h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: -10px;
+    margin-top: 140px;
+}
+
+.batea h1, .batea a{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+.tables{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.from4{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.composed, .size3{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #525252;
+    font-family: 'Cardo', serif;
+}
+
+.batea a{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.size3{
+    margin:  40px 0 50px 0;
+}
+
+/******************************************************/
+
+.our{
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #3A3A3A;
+    margin-top: 41px;
+}
+
+.get{
+    font-family: 'Cardo', serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin: 21px 0 37px 0;
+}
+
+.threeoictures{
+    display: flex;
+    justify-content: center;
+}
+
+.threeoictures img{
+    width: 367px;
+    height: 550px;
+    margin: 10px;
+}
+
+.icon6{
+    margin-left: 42%;
+}
+/*************the********************************/
+
+.the{
+    height: 312px;
+    margin: 53px 0 44px 0;
+}
+
+.team{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #020202;
+    margin-top: 83px;
+    margin-bottom: 37px;
+}
+
+.uk{
+    font-family: 'Cardo', serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.icon7{
+    margin-bottom: -20px;
+}
+
+/*******************all*******************/
+.all{
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.all div{
+    padding: 32px;
+}
+.all div:hover{
+    /*background-color: white;*/
+    transition: 0.7s;
+}
+.all p, h4, .all a{
+    font-family: 'Cardo', serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+}
+.design, .made{
+    background: #FFFFFF;
+}
+
+.footprint, .wood{
+    background: #F8F8F8;
+}
+
+h4{
+    font-size: 20px;
+}
+.all p, a{
+    font-size: 13px;
+}
+
+/******************interior*******************/
+
+.interior{
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: #F7F7F7;
+}
+
+.those img{
+    width: 1420px;
+    height: 104px;
+    margin: 41px 10px 83px 10px;
+}
+
+.those p{
+    width: 298px;
+    height: 26px;
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #454545;
+    margin: 61px 571px 0 571px;
+}
+/*******************footer************************/
+footer{
+    background-color: #E9E9E9;
+    height: 448px;
+}
+
+.chast1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.chast1 p{
+    font-family: 'Cardo', serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer h4{
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+.chast1 div{
+    padding: 60px;
+}
+.dont{
+    margin-top: -30px;
+}
+.dont p, img{
+    margin: 15px;
+}
+
+.dont img, none:.trustpilot{
+    width: 60px;
+    height: 60px;
+}
+.trustpilot{
+    margin-top: -15px;
+}
+.letter{
+    border: 1px solid #000000;
+    width: 240px;
+    height: 18px;
+    background: #FFFFFF;
+    padding: 2px;
+}
+
+.trustpilot{
+    display: block;
+    width: 225px;
+    height: 35px;
+}
+
+
+.chast2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: 4%;
+}
+.cards{
+    width: 359px;
+    height: 28px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.copyright{
+    width: 199px;
+    height: 23px;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.term{
+    width: 359px;
+    height: 22px;
+    margin-top: 60px;
+    margin-left: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
